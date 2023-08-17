@@ -1,0 +1,45 @@
+.listcards{
+    display:flex;
+    gap:2em;
+    justify-content: center;
+   flex-wrap:wrap;
+}
+.imgHolder{
+    width:250px;
+    
+   
+transition:0.3s ease;
+
+}
+.side{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2em;
+}
+.card-container{
+width:250px;
+overflow:hidden;
+height:350px;
+}
+.imgHolder img{
+    width:250px;
+}
+.trend{
+margin:70px;
+}
+.imgHolder:hover{
+    transform: scale(1.1);
+}
+.details{
+    font-family:'hammersmith one';
+    width:250px;
+    padding:0.5em;
+    transition:0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+.card-container:hover .details{
+margin-top:-120px;
+transition:0.3s ease;
+}
